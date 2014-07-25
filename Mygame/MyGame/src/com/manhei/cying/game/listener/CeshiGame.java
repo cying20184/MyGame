@@ -20,5 +20,7 @@ public class CeshiGame extends Game {
         // TODO Auto-generated method stub
         super.resume();
     }
-    
+    public CeshiGame getGame(){
+        return this;
+    }
 }
